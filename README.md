@@ -16,5 +16,15 @@ Command line wrapper for [subtitle.js](https://github.com/gsantiago/subtitle.js/
    node subtitle-resync.js <subtitle file name> <time (in millisecond)>
    ```  
    Note that time can be positive or negative
-   
+
 4. Resynced subtitle file is the one suffixed with `-resync`, located at the same directory as the original file
+
+## Dependencies
+
+- [subtitle.js](https://www.npmjs.com/package/subtitle) - resync subtitles
+
+- [chardet](https://www.npmjs.com/package/chardet) - detect encoding of the input file
+
+## License
+
+MIT
