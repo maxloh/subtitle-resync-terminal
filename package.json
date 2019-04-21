@@ -1,0 +1,16 @@
+{
+  "name": "subtitle-resync-terminal",
+  "version": "0.1.0",
+  "description": "Sync subtitle in terminal",
+  "main": "subtitle-resync.js",
+  "dependencies": {
+    "chardet": "^0.7.0",
+    "subtitle": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Loh",
+  "license": "MIT"
+}
