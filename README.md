@@ -2,7 +2,7 @@
 
 Command line wrapper for [subtitle.js](https://github.com/gsantiago/subtitle.js/)
 
-## Usage
+## Installation
 
 1. Download the repo
 
@@ -11,13 +11,20 @@ Command line wrapper for [subtitle.js](https://github.com/gsantiago/subtitle.js/
    npm install
    ```
 
-3. After installing dependency, you can resync a subtitle file via terminal  
+3. Install the script as a command-line executable  
    ```
-   node subtitle-resync.js <subtitle file name> <time (in millisecond)>
-   ```  
-   Note that time can be positive or negative
+   npm link
+   ```
 
-4. Resynced subtitle file is the one suffixed with `-resync`, located at the same directory as the original file
+## Usage
+
+```
+subtitle-resync <subtitle file path> <time (in millisecond)>
+```
+
+Note that time can be positive or negative
+
+Resynced subtitle file is the one suffixed with `-resync`, located at the same directory as the original file
 
 ## Dependencies
 

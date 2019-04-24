@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const chardet = require('chardet');
 const { parse, stringify, resync } = require('subtitle');

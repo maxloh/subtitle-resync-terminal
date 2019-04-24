@@ -12,5 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Max Loh",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "subtitle-resync": "subtitle-resync.js"
+  }
 }
