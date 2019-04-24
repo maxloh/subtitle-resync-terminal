@@ -1,6 +1,6 @@
 {
   "name": "subtitle-resync-terminal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sync subtitle in terminal",
   "main": "subtitle-resync.js",
   "dependencies": {
@@ -15,5 +15,9 @@
   "license": "MIT",
   "bin": {
     "subtitle-resync": "subtitle-resync.js"
-  }
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/maxloh/subtitle-resync-terminal.git"
+  }  
 }
