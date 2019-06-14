@@ -1,4 +1,4 @@
-# subtitle-resync-terminal
+# subtitle-resync
 
 Command line wrapper for [subtitle.js](https://github.com/gsantiago/subtitle.js/)
 
@@ -7,7 +7,7 @@ Command line wrapper for [subtitle.js](https://github.com/gsantiago/subtitle.js/
 ### NPM
 
 ```
-npm install -g subtitle-resync-terminal
+npm install -g subtitle-resync
 ```
 
 ### Download from GitHub
