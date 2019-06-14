@@ -4,7 +4,15 @@ Command line wrapper for [subtitle.js](https://github.com/gsantiago/subtitle.js/
 
 ## Installation
 
-1. Download the repo
+### NPM
+
+```
+npm install -g subtitle-resync-terminal
+```
+
+### Download from GitHub
+
+1. Download the [repo](https://github.com/maxloh/subtitle-resync.git)
 
 2. Install dependencies before the first time you run the script  
    ```
